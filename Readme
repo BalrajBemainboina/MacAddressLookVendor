@@ -1,0 +1,17 @@
+********************************************************
+      MacAddressLook.py
+	This Python Module is a simple implementation of the 
+	MacAddressLoolup api to get and display the vendor 
+	name attached to given MAcaddress
+
+********************************************************
+USAGE : 
+1.Run the this python script on python2 environment
+2. Command 'python MacAddressLook.py'
+3. It will ask per MAC Address to enter, Please enter a valid Mac address in the format A1-B2-C3-00-00-00 or A1:B2:C3::00:00:00
+
+Docker image : DockerFile exists for this script, to dockerize and use please find below commands.
+1.Copy both MacAddressLook.py and Dockerfile in a folder run below commands
+2.To build a image :  "docker build -t macaddressimage ."
+3.To run Docker image as container in interactive mode since you need to input Mac Addres : 'docker run -ti macaddressimage'
+
